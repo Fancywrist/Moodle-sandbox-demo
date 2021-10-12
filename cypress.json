@@ -1,0 +1,9 @@
+{
+
+  "baseUrl": "https://sandbox.moodledemo.net/login/index.php",
+  "viewportHeight": 900,
+  "viewportWidth": 1400,
+  "defaultCommandTimeout": 20000,
+  "testFiles": "**/*.{feature, features}"
+
+}
