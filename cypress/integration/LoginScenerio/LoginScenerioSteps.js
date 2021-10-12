@@ -22,6 +22,9 @@ When('I type in the {string} for user', (user)=> {
 When('I type the password', ()=> {
     cy.get('#password').type('sandbox');
 });
+When('I check the Remember Me', ()=> {
+    cy.get('#rememberusername').click();
+});
 When('I click the login button', ()=> {
     cy.get('#loginbtn').click();
 });
